@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nainital - Uttarakhand</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7fcff;
+      color: #2c3e50;
+    }
+
+    header {
+      background-color: #4682b4;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .map-container {
+      border: 4px solid #4682b4;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    iframe {
+      width: 100%;
+      height: 450px;
+      border: none;
+    }
+
+    .links a {
+      display: block;
+      background-color: #36648b;
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px auto;
+      width: 260px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .links a:hover {
+      background-color: #2b547e;
+    }
+
+    footer {
+      background-color: #4682b4;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Nainital</h1>
+  <p>Lake District of India</p>
+</header>
+
+<div class="content">
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.365343431498!2d79.45478427438657!3d29.391920350490003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0a265347c6c9b%3A0xf2cb87b7d5e33971!2sNainital%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1747990000001" loading="lazy"></iframe>
+  </div>
+
+  <div class="links">
+    <a href="https://www.booking.com/city/in/nainital.html" target="_blank">Hotels in Nainital</a>
+    <a href="https://www.tripadvisor.in/Restaurants-g660548-Nainital_Nainital_District_Uttarakhand.html" target="_blank">Restaurants in Nainital</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 Nainital Travel Guide</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Discover Kullu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #8e44ad;
+      color: white;
+      padding: 30px 50px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .map-container {
+      border: 4px solid #8e44ad;
+      border-radius: 15px;
+      overflow: hidden;
+      margin-bottom: 40px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    iframe {
+      width: 100%;
+      height: 450px;
+      border: none;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .links a {
+      text-decoration: none;
+      background-color: #9b59b6;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .links a:hover {
+      background-color: #7e3793;
+    }
+
+    footer {
+      background-color: #8e44ad;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Kullu</h1>
+    <p>The Valley of Gods Awaits You</p>
+  </header>
+
+  <div class="content">
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54019.653759711106!2d77.10187701208989!3d31.95657920465527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390490d89e3c4ac3%3A0x84a5175574b8796c!2sKullu%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1747912000000!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="links">
+      <a href="https://www.booking.com/city/in/kulu.en.html" target="_blank">Find Hotels in Kullu</a>
+      <a href="https://www.tripadvisor.in/Restaurants-g1152631-Kullu_Kullu_District_Himachal_Pradesh.html" target="_blank">Explore Restaurants in Kullu</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>2025 Discover Kullu | Travel with Heart</p>
+  </footer>
+</body>
+</html>

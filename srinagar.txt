@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Srinagar - Jammu & Kashmir</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f2f7f9;
+      color: #2c3e50;
+    }
+
+    header {
+      background-color: #2980b9;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .map-container {
+      border: 4px solid #2980b9;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    iframe {
+      width: 100%;
+      height: 450px;
+      border: none;
+    }
+
+    .links a {
+      display: block;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px auto;
+      width: 250px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+      transition: background 0.3s;
+    }
+
+    .links a:hover {
+      background-color: #217dbb;
+    }
+
+    footer {
+      background-color: #2980b9;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Srinagar</h1>
+  <p>The Jewel of Kashmir Valley</p>
+</header>
+
+<div class="content">
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3383.103174453091!2d74.80555317536395!3d34.08365817314444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e18559cd999cc7%3A0x5f960aa0f3c5e26b!2sSrinagar%2C%20Jammu%20and%20Kashmir!5e0!3m2!1sen!2sin!4v1747920000000!5m2!1sen!2sin" loading="lazy"></iframe>
+  </div>
+
+  <div class="links">
+    <a href="https://www.booking.com/city/in/srinagar.html" target="_blank">Hotels in Srinagar</a>
+    <a href="https://www.tripadvisor.in/Restaurants-g297623-Srinagar_Srinagar_District_Kashmir_Jammu_and_Kashmir.html" target="_blank">Restaurants in Srinagar</a>
+  </div>
+</div>
+
+<footer>
+  <p>2025 Srinagar Travel Guide</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rajasthan Destinations</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fffaf0;
+      color: #2c3e50;
+      text-align: center;
+    }
+
+    header {
+      background-color: #c0392b;
+      color: white;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      padding: 50px 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .destination {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 200px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .destination:hover {
+      transform: scale(1.05);
+    }
+
+    .destination a {
+      text-decoration: none;
+      color: #c0392b;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    footer {
+      background-color: #c0392b;
+      color: white;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Explore Rajasthan</h1>
+    <p>Choose your destination</p>
+  </header>
+
+  <div class="container">
+    <div class="destination">
+      <a href="jaipur.html">Jaipur</a>
+    </div>
+    <div class="destination">
+      <a href="udaipur.html">Udaipur</a>
+    </div>
+    <div class="destination">
+      <a href="jaisalmer.html">Jaisalmer</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>2025 Rajasthan Travel Guide</p>
+  </footer>
+
+</body>
+</html>

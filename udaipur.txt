@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Udaipur - Rajasthan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f0faff;
+      color: #2c3e50;
+    }
+
+    header {
+      background-color: #3498db;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .map-container {
+      border: 4px solid #3498db;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    iframe {
+      width: 100%;
+      height: 450px;
+      border: none;
+    }
+
+    .links a {
+      display: block;
+      background-color: #2980b9;
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px auto;
+      width: 250px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+      transition: background 0.3s;
+    }
+
+    .links a:hover {
+      background-color: #1f618d;
+    }
+
+    footer {
+      background-color: #3498db;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Udaipur</h1>
+  <p>The City of Lakes</p>
+</header>
+
+<div class="content">
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60376.2648350553!2d73.6559258200846!3d24.585445905761787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e5658aa9e6a9%3A0x97b4f5022fd7b1b4!2sUdaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1747920000004" loading="lazy"></iframe>
+  </div>
+
+  <div class="links">
+    <a href="https://www.booking.com/city/in/udaipur.html" target="_blank">Hotels in Udaipur</a>
+    <a href="https://www.tripadvisor.in/Restaurants-g297672-Udaipur_Udaipur_District_Rajasthan.html" target="_blank">Restaurants in Udaipur</a>
+  </div>
+</div>
+
+<footer>
+  <p>2025 Udaipur Travel Guide</p>
+</footer>
+
+</body>
+</html>

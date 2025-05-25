@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agra - Uttar Pradesh</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fffaf0;
+      color: #2c3e50;
+    }
+
+    header {
+      background-color: #8b0000;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .map-container {
+      border: 4px solid #8b0000;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    iframe {
+      width: 100%;
+      height: 450px;
+      border: none;
+    }
+
+    .links a {
+      display: block;
+      background-color: #b22222;
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px auto;
+      width: 260px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+
+    .links a:hover {
+      background-color: #8b0000;
+    }
+
+    footer {
+      background-color: #8b0000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Agra</h1>
+  <p>Home of the Majestic Taj Mahal</p>
+</header>
+
+<div class="content">
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14240.7424346182!2d78.0039445!3d27.1752557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974716f94f69fd5%3A0x74f7d1187cbd4a7d!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1747990000000" loading="lazy"></iframe>
+  </div>
+
+  <div class="links">
+    <a href="https://www.booking.com/city/in/agra.html" target="_blank">Hotels in Agra</a>
+    <a href="https://www.tripadvisor.in/Restaurants-g297683-Agra_Agra_District_Uttar_Pradesh.html" target="_blank">Restaurants in Agra</a>
+  </div>
+</div>
+
+<footer>
+  <p>2025 Agra Travel Guide</p>
+</footer>
+
+</body>
+</html>

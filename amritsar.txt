@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amritsar - Punjab</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fffef5;
+      color: #2c3e50;
+    }
+
+    header {
+      background-color: #e74c3c;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .map-container {
+      border: 4px solid #e74c3c;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    iframe {
+      width: 100%;
+      height: 450px;
+      border: none;
+    }
+
+    .links a {
+      display: block;
+      background-color: #c0392b;
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px auto;
+      width: 250px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+      transition: background 0.3s;
+    }
+
+    .links a:hover {
+      background-color: #a93226;
+    }
+
+    footer {
+      background-color: #e74c3c;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Amritsar</h1>
+  <p>Home of the Golden Temple</p>
+</header>
+
+<div class="content">
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.6703260050145!2d74.86100337441806!3d31.634001174174875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391964aa6f0b2d43%3A0x775c1aa1eacfe7c6!2sAmritsar%2C%20Punjab!5e0!3m2!1sen!2sin!4v1747920000006" loading="lazy"></iframe>
+  </div>
+
+  <div class="links">
+    <a href="https://www.booking.com/city/in/amritsar.html" target="_blank">Hotels in Amritsar</a>
+    <a href="https://www.tripadvisor.in/Restaurants-g303884-Amritsar_Amritsar_District_Punjab.html" target="_blank">Restaurants in Amritsar</a>
+  </div>
+</div>
+
+<footer>
+  <p>2025 Amritsar Travel Guide</p>
+</footer>
+
+</body>
+</html>

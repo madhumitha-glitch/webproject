@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discover Manali</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px 50px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .map-container {
+      border: 4px solid #2c3e50;
+      border-radius: 15px;
+      overflow: hidden;
+      margin-bottom: 40px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    iframe {
+      width: 100%;
+      height: 450px;
+      border: none;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .links a {
+      text-decoration: none;
+      background-color: #3498db;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .links a:hover {
+      background-color: #2980b9;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Manali</h1>
+    <p>Explore the beauty of the Himalayas</p>
+  </header>
+
+  <div class="content">
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53995.06801857061!2d77.14592012050116!3d32.239465366296876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39048708163fd03f%3A0x8129a80ebe5076cd!2sManali%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1747907621526!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="links">
+      <a href="https://www.booking.com/city/in/manali.en.html" target="_blank">Find Hotels in Manali</a>
+      <a href="https://www.tripadvisor.in/Restaurants-g297618-Manali_Kullu_District_Himachal_Pradesh.html" target="_blank">Explore Restaurants in Manali</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>2025 Discover Manali | Designed with love</p>
+  </footer>
+</body>
+</html>
